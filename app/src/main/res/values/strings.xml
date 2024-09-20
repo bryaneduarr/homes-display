@@ -1,0 +1,42 @@
+<resources>
+  <string-array name="title_houses">
+    <item>Saratoga Gap and Ridge Loop</item>
+    <item>Las Venturas Extreme Park in Water</item>
+    <item>Carmonela River House open</item>
+  </string-array>
+  <string-array name="rating_houses">
+    <item>4.7</item>
+    <item>5.0</item>
+    <item>3.2</item>
+  </string-array>
+  <string-array name="climate_houses">
+    <item>Moderate</item>
+    <item>Aggressive</item>
+    <item>Calm</item>
+  </string-array>
+  <string-array name="miles_houses">
+    <item>4.90 mi</item>
+    <item>10.2 mi</item>
+    <item>2.3 mi</item>
+  </string-array>
+  <string-array name="estimated_houses">
+    <item>2h 29m</item>
+    <item>3h 10m</item>
+    <item>1h 1m</item>
+  </string-array>
+  <string name="app_name">Products</string>
+  <string name="findCitiesEditText">Find Cities</string>
+  <string name="locationsTextView" />
+  <string name="iconDescription">Icon Description</string>
+  <string name="sampleText">Among Trees</string>
+  <string name="imageHouseDescription">AirBnB House</string>
+  <string name="titleTextView">Title for the house</string>
+  <string name="descriptionHousesTextView">Castle Rock State Park</string>
+  <string name="temperatureHousesTextView">Moderate</string>
+  <string name="starDescription">Star Icon</string>
+  <string name="dotDescription">Dot gray</string>
+  <string name="reviewNumberTextView">4.7</string>
+  <string name="milesHousesTextView">4.90 mi</string>
+  <string name="estimateArrivalHousesTextView">Est.2h 29m</string>
+  <string name="downArrowIcon">Down Arrow Icon</string>
+</resources>

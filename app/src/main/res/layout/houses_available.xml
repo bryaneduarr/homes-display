@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="300dp"
+      app:cardCornerRadius="30dp">
+
+      <ImageView
+        android:id="@+id/imageViewHousesAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/imageHouseDescription"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@drawable/house_1" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      tools:ignore="UseCompoundDrawables">
+
+      <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="@string/titleTextView"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+      <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/downArrowIcon"
+        android:src="@drawable/down_arrow_circle_svgrepo_com" />
+    </LinearLayout>
+
+    <TextView
+      android:id="@+id/descriptionHousesTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="1dp"
+      android:text="@string/descriptionHousesTextView"
+      android:textSize="15sp" />
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+      <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/starDescription"
+        android:paddingEnd="5dp"
+        android:src="@drawable/star_favorite_1499_svgrepo_com"
+        tools:ignore="RtlSymmetry" />
+
+      <TextView
+        android:id="@+id/reviewHousesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reviewNumberTextView"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+      <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.5dp"
+        android:contentDescription="@string/dotDescription"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:src="@drawable/gray_circle" />
+
+      <TextView
+        android:id="@+id/temperatureHousesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:text="@string/temperatureHousesTextView"
+        android:textAlignment="center" />
+
+      <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.5dp"
+        android:contentDescription="@string/dotDescription"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:src="@drawable/gray_circle" />
+
+      <TextView
+        android:id="@+id/milesHousesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:text="@string/milesHousesTextView"
+        android:textAlignment="center" />
+
+      <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.5dp"
+        android:contentDescription="@string/dotDescription"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:src="@drawable/gray_circle" />
+
+      <TextView
+        android:id="@+id/estimateArrivalHousesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:text="@string/estimateArrivalHousesTextView"
+        android:textAlignment="center" />
+    </LinearLayout>
+  </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
